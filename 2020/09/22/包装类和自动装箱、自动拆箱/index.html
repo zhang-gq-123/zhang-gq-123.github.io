@@ -6,15 +6,15 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>接口在开发中的作用 | Hexo博客</title>
+  <title>包装类和自动装箱、自动拆箱 | Hexo博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="article">
-<meta property="og:title" content="接口在开发中的作用">
-<meta property="og:url" content="http://example.com/2020/09/19/%E6%8E%A5%E5%8F%A3%E5%9C%A8%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8/index.html">
+<meta property="og:title" content="包装类和自动装箱、自动拆箱">
+<meta property="og:url" content="http://example.com/2020/09/22/%E5%8C%85%E8%A3%85%E7%B1%BB%E5%92%8C%E8%87%AA%E5%8A%A8%E8%A3%85%E7%AE%B1%E3%80%81%E8%87%AA%E5%8A%A8%E6%8B%86%E7%AE%B1/index.html">
 <meta property="og:site_name" content="Hexo博客">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-09-19T02:53:53.000Z">
-<meta property="article:modified_time" content="2020-09-19T15:15:42.810Z">
+<meta property="article:published_time" content="2020-09-22T14:18:26.000Z">
+<meta property="article:modified_time" content="2020-09-22T14:18:26.670Z">
 <meta property="article:author" content="张国谦@_@">
 <meta name="twitter:card" content="summary">
   
@@ -156,20 +156,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-接口在开发中的作用" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-包装类和自动装箱、自动拆箱" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      接口在开发中的作用
+      包装类和自动装箱、自动拆箱
     </h1>
   
 
         
-        <a href="/2020/09/19/%E6%8E%A5%E5%8F%A3%E5%9C%A8%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8/" class="archive-article-date">
-  	<time datetime="2020-09-19T02:53:53.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-19</time>
+        <a href="/2020/09/22/%E5%8C%85%E8%A3%85%E7%B1%BB%E5%92%8C%E8%87%AA%E5%8A%A8%E8%A3%85%E7%AE%B1%E3%80%81%E8%87%AA%E5%8A%A8%E6%8B%86%E7%AE%B1/" class="archive-article-date">
+  	<time datetime="2020-09-22T14:18:26.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-22</time>
 </a>
         
       </header>
@@ -255,7 +255,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/09/19/%E6%8E%A5%E5%8F%A3%E5%9C%A8%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/09/22/%E5%8C%85%E8%A3%85%E7%B1%BB%E5%92%8C%E8%87%AA%E5%8A%A8%E8%A3%85%E7%AE%B1%E3%80%81%E8%87%AA%E5%8A%A8%E6%8B%86%E7%AE%B1/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -269,18 +269,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/09/20/JAVA%E4%B8%AD%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E6%8B%B7%E8%B4%9D/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          JAVA中一维数组的定义和拷贝
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/09/16/%E4%B8%8B%E8%BD%BD%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A2%98%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%B8%AA%E9%97%AE%E9%A2%98%EF%BC%9A/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">下载博客主题时遇到的一个问题：</div>
+    <a href="/2020/09/22/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E3%80%81%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E5%92%8C%E4%BA%8C%E5%88%86%E6%B3%95%E6%9F%A5%E6%89%BE/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">冒泡排序、选择排序和二分法查找</div>
       <i class="icon-circle-right"></i>
     </a>
   
